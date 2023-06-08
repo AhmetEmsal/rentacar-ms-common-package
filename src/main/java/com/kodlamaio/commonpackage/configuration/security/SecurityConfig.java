@@ -24,6 +24,9 @@ public class SecurityConfig {
                         "/swagger-ui/**",
                         "/{version}/api-docs/**",
 
+                        // actuator
+                        "/actuator/**",
+
                         "/api/filters/**",
 
                         // clients
